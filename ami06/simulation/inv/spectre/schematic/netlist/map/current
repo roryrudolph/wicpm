@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inv"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/nethome/rrudolph3/Desktop/wicpm/ami06/simulation/inv/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "lib6414/inv/schematic" "inv" )
+ )
+( term
+ )
+( param
+ )
+( "inv" "ihnl/cds0/map" )
+ )

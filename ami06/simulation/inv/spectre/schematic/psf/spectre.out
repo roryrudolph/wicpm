@@ -1,0 +1,213 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.181.isr12 32bit -- 27 Jul 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: rrudolph3   Host: ecelinsrvx.ece.gatech.edu   HostID: CF8217E8   PID: 43891
+Memory  available: 39.2749 GB  physical: 203.0484 GB
+CPU Type: Intel(R) Xeon(R) CPU E5-4610 v2 @ 2.30GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     2299.8
+              1         1        0     2299.8
+              2         2        0     2299.8
+              3         3        0     2299.8
+              4         0        1     2299.8
+              5         1        1     2299.8
+              6         2        1     2299.8
+              7         3        1     2299.8
+              8         0        2     2299.8
+              9         1        2     2299.8
+             10         2        2     2299.8
+             11         3        2     2299.8
+             12         0        3     2299.8
+             13         1        3     2299.8
+             14         2        3     2299.8
+             15         3        3     2299.8
+             16         0        4     2299.8
+             17         1        4     2299.8
+             18         2        4     2299.8
+             19         3        4     2299.8
+             20         0        5     2299.8
+             21         1        5     2299.8
+             22         2        5     2299.8
+             23         3        5     2299.8
+             24         0        6     2299.8
+             25         1        6     2299.8
+             26         2        6     2299.8
+             27         3        6     2299.8
+             28         0        7     2299.8
+             29         1        7     2299.8
+             30         2        7     2299.8
+             31         3        7     2299.8
+             32         0        0     2299.8
+             33         1        0     2299.8
+             34         2        0     2299.8
+             35         3        0     2299.8
+             36         0        1     2299.8
+             37         1        1     2299.8
+             38         2        1     2299.8
+             39         3        1     2299.8
+             40         0        2     2299.8
+             41         1        2     2299.8
+             42         2        2     2299.8
+             43         3        2     2299.8
+             44         0        3     2299.8
+             45         1        3     2299.8
+             46         2        3     2299.8
+             47         3        3     2299.8
+             48         0        4     2299.8
+             49         1        4     2299.8
+             50         2        4     2299.8
+             51         3        4     2299.8
+             52         0        5     2299.8
+             53         1        5     2299.8
+             54         2        5     2299.8
+             55         3        5     2299.8
+             56         0        6     2299.8
+             57         1        6     2299.8
+             58         2        6     2299.8
+             59         3        6     2299.8
+             60         0        7     2299.8
+             61         1        7     2299.8
+             62         2        7     2299.8
+             63         3        7     2299.8
+
+
+Simulating `input.scs' on ecelinsrvx.ece.gatech.edu at 2:00:59 PM, Mon Mar 12, 2018 (process id: 43891).
+Command line:
+    /tools/cadence/mmsim101/tools.lnx86/spectre/bin/32bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre3_90380_3 -format psfxl -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 43891
+
+Loading /tools/cadence/mmsim101/tools.lnx86/cmi/lib/5.0/libinfineon_sh.so ...
+Loading /tools/cadence/mmsim101/tools.lnx86/cmi/lib/5.0/libphilips_sh.so ...
+Loading /tools/cadence/mmsim101/tools.lnx86/cmi/lib/5.0/libsparam_sh.so ...
+Loading /tools/cadence/mmsim101/tools.lnx86/cmi/lib/5.0/libstmodels_sh.so ...
+
+Time for NDB Parsing: CPU = 122.981 ms, elapsed = 157.193 ms.
+Time accumulated: CPU = 122.981 ms, elapsed = 157.193 ms.
+Peak resident memory used = 38.7 Mbytes.
+
+
+Time for Elaboration: CPU = 27.995 ms, elapsed = 27.982 ms.
+Time accumulated: CPU = 151.976 ms, elapsed = 185.494 ms.
+Peak resident memory used = 41.8 Mbytes.
+
+
+Time for EDB Visiting: CPU = 0 s, elapsed = 579.834 us.
+Time accumulated: CPU = 151.976 ms, elapsed = 186.359 ms.
+Peak resident memory used = 42.1 Mbytes.
+
+
+Circuit inventory:
+              nodes 3
+            bsim3v3 2     
+          capacitor 1     
+            vsource 2     
+
+
+Time for parsing: CPU = 4.999 ms, elapsed = 5.71179 ms.
+Time accumulated: CPU = 157.975 ms, elapsed = 192.335 ms.
+Peak resident memory used = 43.8 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre3_90380_3, ).
+
+Warning from spectre.
+    WARNING (SPECTRE-16707): Only tran supports psfxl format, result of other analyses will be in psfbin format.
+
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 2.82 ns     (2.82 %), step = 893 ps       (893 m%)
+    tran: time = 8.606 ns    (8.61 %), step = 2 ns            (2 %)
+    tran: time = 14.42 ns    (14.4 %), step = 2 ns            (2 %)
+    tran: time = 18.42 ns    (18.4 %), step = 2 ns            (2 %)
+    tran: time = 24.42 ns    (24.4 %), step = 2 ns            (2 %)
+    tran: time = 28.42 ns    (28.4 %), step = 2 ns            (2 %)
+
+Notice from spectre at time = 30.4223 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 32.4223 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+Notice from spectre at time = 34.4223 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+
+    tran: time = 34.42 ns    (34.4 %), step = 2 ns            (2 %)
+
+Notice from spectre at time = 36.4223 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+    Found trapezoidal ringing on node V1:p.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 38.42 ns    (38.4 %), step = 2 ns            (2 %)
+    tran: time = 44.42 ns    (44.4 %), step = 2 ns            (2 %)
+    tran: time = 48.42 ns    (48.4 %), step = 2 ns            (2 %)
+    tran: time = 54.42 ns    (54.4 %), step = 2 ns            (2 %)
+    tran: time = 58.42 ns    (58.4 %), step = 2 ns            (2 %)
+    tran: time = 64.42 ns    (64.4 %), step = 2 ns            (2 %)
+    tran: time = 68.42 ns    (68.4 %), step = 2 ns            (2 %)
+    tran: time = 74.42 ns    (74.4 %), step = 2 ns            (2 %)
+    tran: time = 78.42 ns    (78.4 %), step = 2 ns            (2 %)
+    tran: time = 84.42 ns    (84.4 %), step = 2 ns            (2 %)
+    tran: time = 88.42 ns    (88.4 %), step = 2 ns            (2 %)
+    tran: time = 94.42 ns    (94.4 %), step = 2 ns            (2 %)
+    tran: time = 98.42 ns    (98.4 %), step = 2 ns            (2 %)
+Number of accepted tran steps =             64
+Initial condition solution time: CPU = 0 s, elapsed = 915.051 us.
+Intrinsic tran analysis time:    CPU = 5.999 ms, elapsed = 10.1829 ms.
+Total time required for tran analysis `tran': CPU = 9.999 ms, elapsed = 20.6821 ms.
+Time accumulated: CPU = 170.973 ms, elapsed = 412.468 ms.
+Peak resident memory used = 45.2 Mbytes.
+
+
+Notice from spectre.
+    64 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (2:04:59 PM, Mon Mar 12, 2018):
+Time used: CPU = 224 ms, elapsed = 241 s (4m  0.8s), util. = 93e-03%.
+Time spent in licensing: elapsed = 75.4 ms.
+Peak memory used = 45.2 Mbytes.
+Simulation started at: 2:00:59 PM, Mon Mar 12, 2018, ended at: 2:04:59 PM, Mon Mar 12, 2018, with elapsed time (wall clock): 241 s (4m  0.8s).
+spectre completes with 0 errors, 1 warning, and 70 notices.

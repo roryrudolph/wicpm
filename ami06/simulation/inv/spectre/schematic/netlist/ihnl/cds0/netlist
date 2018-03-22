@@ -1,0 +1,11 @@
+
+// Library name: lib6414
+// Cell name: inv
+// View name: schematic
+V0 (vdd! 0) vsource type=dc dc=5
+V1 (VIN 0) vsource type=pulse val0=0 val1=5 rise=1n
+N0 (VOUT VIN 0 0) ami06N w=1.5u l=600n as=2.25e-12 ad=2.25e-12 ps=6u pd=6u \
+        m=1 region=sat
+P0 (VOUT VIN vdd! vdd!) ami06P w=1.5u l=600n as=2.25e-12 ad=2.25e-12 ps=6u \
+        pd=6u m=1 region=sat
+C0 (VOUT 0) capacitor c=1p m=1

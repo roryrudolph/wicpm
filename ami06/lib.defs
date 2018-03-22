@@ -1,0 +1,16 @@
+#######
+# User lib.defs file
+#
+# Uncomment lines  to use associated directory
+# 
+######
+
+DEFINE cdsDefTechLib /tools/linsoft2/cadence/ic610isr05/tools/dfII/etc/cdsDefTechLib
+ASSIGN cdsDefTechLib libMode shared
+
+INCLUDE $CDK_DIR/lib/lib.defs
+#INCLUDE $OSUcells/lib/lib.defs
+
+DEFINE avTech /tools/linsoft2/cadence/assura320a612/tools/assura/etc/avtech/avTech
+ASSIGN avTech libMode shared
+

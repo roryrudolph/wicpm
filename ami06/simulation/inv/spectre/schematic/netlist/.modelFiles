@@ -1,0 +1,2 @@
+include "/tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/models/spectre/standalone/ami06N.m"
+include "/tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/models/spectre/standalone/ami06P.m"

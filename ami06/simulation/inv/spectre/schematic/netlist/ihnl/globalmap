@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+lib6414/inv/schematic inv
+$endmodel
+$net
+vdd! vdd!
+gnd! 0
+$endnet
+$param
+$endparam

@@ -1,0 +1,22 @@
+\o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
+\o Sub version:		sub-version  s008 
+\o Arguments:		-unmapped -mpssession virtuoso86008 -mpshost ecelinsrvx.ece.gatech.edu 
+\o Working Directory:	ecelinsrvx.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm
+\o Qt version: 		4.5.3
+\o Loading customization file "/tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsLibMgr.il"
+\o Loading NCSU Library Manager customizations...done.
+\o changeWorkingDir("/nethome/rrudolph3/Desktop/wicpm") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/nethome/rrudolph3/Desktop/wicpm/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(715 248 600 443))
+\a fileCascade->fileNewCascade->value = "Library..."
+\a cdsLibManager->cdkCreateNewLib->value = t ; customval
+\a fileCascade->value = "Library..."
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
