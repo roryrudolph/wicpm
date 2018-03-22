@@ -13,10 +13,6 @@
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "lib6414"
-\a cdsLibManager->libListBox->value = "cdsDefTechLib"
-\a cdsLibManager->libListBox->value = "basic"
 \a cdsLibManager->libListBox->value = "lib6414"
 \a cdsLibManager->libLineEdit->value = "lib6414"
 \a cdsLibManager->cellListBox->value = "dac_r2r_8bit"
@@ -27,17 +23,6 @@
 \a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
 \a cdsLibManager->cellLineEdit->value = "dac_r2r_8bit"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "lib6414"
-\a cdsLibManager->libLineEdit->value = "lib6414"
-\a cdsLibManager->cellListBox->value = "dac_r2r_8bit"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "dac_r2r_8bit"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
