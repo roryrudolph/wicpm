@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
 \o Sub version:		sub-version  s008 
-\o Arguments:		-mpssession virtuoso10532 -mpshost ccblincad06.ece.gatech.edu 
+\o Arguments:		-mpssession virtuoso30888 -mpshost ccblincad06.ece.gatech.edu 
 \o Working Directory:	ccblincad06.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm/ami06
 \o Qt version: 		4.5.3
 \o Log file is "/nethome/rrudolph3/Desktop/wicpm/ami06/libManager.log".
@@ -13,10 +13,80 @@
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_ami06"
+\a cdsLibManager->libListBox->value = "NCSU_Analog_Parts"
+\a cdsLibManager->libLineEdit->value = "NCSU_Analog_Parts"
+\a cdsLibManager->cellListBox->value = "nmos"
+\a cdsLibManager->cellListBox->value = "nmos4"
+\a cdsLibManager->cellListBox->value = "nmos4_elec"
+\a cdsLibManager->cellListBox->value = "nmos4_hv"
+\a cdsLibManager->cellListBox->value = "nmos_elec"
+\a cdsLibManager->cellListBox->value = "nmos4_elec"
+\a cdsLibManager->cellListBox->value = "nmos4"
+\a cdsLibManager->cellLineEdit->value = "nmos4"
+\a cdsLibManager->libListBox->value = "lib6414"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "lib6414"
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellListBox->value = nil
+\a nrListItemAction(cdsLibManager->cellListBox 8 0)
+\a cdsLibManager->cellListBox->value = "inv"
+\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "lib6414"
 \a cdsLibManager->libLineEdit->value = "lib6414"
-\a cdsLibManager->cellListBox->value = "comp3"
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "lib6414"
+\a cdsLibManager->libLineEdit->value = "lib6414"
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "lib6414"
+\a cdsLibManager->libLineEdit->value = "lib6414"
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "dac8r2r"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "lib6414"
+\a cdsLibManager->libLineEdit->value = "lib6414"
+\a cdsLibManager->cellListBox->value = "dac8r2r"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "comp3_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellListBox->value = nil
@@ -29,20 +99,6 @@
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "comp3_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "lib6414"
-\a cdsLibManager->libLineEdit->value = "lib6414"
-\a cdsLibManager->cellListBox->value = "comp3_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellLineEdit->value = "comp3_tb"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)

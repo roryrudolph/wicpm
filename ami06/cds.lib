@@ -1,2 +1,3 @@
 SOFTINCLUDE /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cds.lib
 DEFINE lib6414 /nethome/rrudolph3/Desktop/wicpm/ami06/lib6414
+DEFINE avTech /tools/cadence/assura615oahf/tools/assura/etc/avtech/avTech
