@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rrudolph3
+HostName                       ccblincad14.ece.gatech.edu
+ProcessIdentifier              13330
+ProcessCreationTime_UTC        1523459609
+ProcessCreationTime_Readable   Wed Apr 11 11:13:29 2018 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /nethome/rrudolph3/Desktop/wicpm/ami06/lib6414/tg/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Wed Apr 11 11:42:28 2018 EDT
