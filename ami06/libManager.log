@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
 \o Sub version:		sub-version  s008 
-\o Arguments:		-mpssession virtuoso4044 -mpshost ccblincad14.ece.gatech.edu 
+\o Arguments:		-mpssession virtuoso14640 -mpshost ccblincad14.ece.gatech.edu 
 \o Working Directory:	ccblincad14.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm/ami06
 \o Qt version: 		4.5.3
 \o Log file is "/nethome/rrudolph3/Desktop/wicpm/ami06/libManager.log".
@@ -15,101 +15,30 @@
 \o Library Manager customization server connected.
 \a cdsLibManager->libListBox->value = "lib6414"
 \a cdsLibManager->libLineEdit->value = "lib6414"
-\a cdsLibManager->cellListBox->value = "dac_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 8 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "dac_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 7 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "dac"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "comp3"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "comp3"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "comp3_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 6 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "comp3_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "inv"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "dac"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "sar"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "sar_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a nrListItemAction(cdsLibManager->cellListBox 17 0)
-\a cdsLibManager->cellListBox->value = "sar_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "sar_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\o MPS service: map window
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "adc_tb"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\a cdsLibManager->cellListBox->value = "adc_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
 \a cdsLibManager->cellLineEdit->value = "adc_tb"
 \a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "lib6414"
+\a cdsLibManager->libLineEdit->value = "lib6414"
+\a cdsLibManager->cellListBox->value = "adc_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "adc_tb"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \o libManager is exiting.
 \a exit(0)
