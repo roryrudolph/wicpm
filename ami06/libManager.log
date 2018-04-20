@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
 \o Sub version:		sub-version  s008 
-\o Arguments:		-mpssession virtuoso14640 -mpshost ccblincad14.ece.gatech.edu 
-\o Working Directory:	ccblincad14.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm/ami06
+\o Arguments:		-mpssession virtuoso7016 -mpshost ecelinsrvx.ece.gatech.edu 
+\o Working Directory:	ecelinsrvx.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm/ami06
 \o Qt version: 		4.5.3
 \o Log file is "/nethome/rrudolph3/Desktop/wicpm/ami06/libManager.log".
 \o Opening libManager window.
@@ -13,6 +13,7 @@
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
 \a cdsLibManager->libListBox->value = "lib6414"
 \a cdsLibManager->libLineEdit->value = "lib6414"
 \a cdsLibManager->cellListBox->value = "adc_tb"
@@ -38,7 +39,3 @@
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->cellLineEdit->value = "adc_tb"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\o libManager is exiting.
-\a exit(0)
