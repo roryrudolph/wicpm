@@ -1,0 +1,218 @@
+\# Program start time UTC 2018.04.20 20:57:38.221
+\# Local time Friday 20 April 2018, 4:57 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.5 01/16/2012 21:57 (sjfdl074) $
+\o Hierarchy:		/tools/cadence/ic615hf/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.5.500.9  (32-bit addresses)
+\# Host name (type):	ccblincad14.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 2.6.32-696.23.1.el6.x86_64 #1 SMP Sat Feb 10 11:10:31 EST 2018
+\# X display name (WxH):	ccblincad14.ece.gatech.edu:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Memory report:	maximum data size 4294967295 (0xffffffff) bytes
+\# Memory report:	maximum process size 4294967295 (0xffffffff) bytes
+\# Initial sbrk value:	350662656 (0x14e6b000) bytes
+\# Available memory:	5665928 (0x567488) kilobytes
+\# System memory:	7912628 (0x78bcb4) kilobytes
+\# Maximum memory size:	3980738559 (0xed453fff) bytes
+\# Max mem available:	3980738559 (0xed453fff) bytes
+\# Initial memory used:	36433920 (0x22bf000) bytes
+\# Qt version:		4.5.3
+\# Window Manager:	other
+\# User Name:		rrudolph3
+\o Working Directory:	ccblincad14.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm/ami06
+\# Process Id:		15917
+\o 
+\o COPYRIGHT © 1992-2011  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2011  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\# Available memory:	5664192 (0x566dc0) kilobytes UTC 2018.04.20 20:57:38.297
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading adexl.cxt 
+\o Loading oasis.cxt 
+\o Loading asimenv.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading socket.cxt 
+\o Loading alvs.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ***The Sonnet directory is not set and the Sonnet Cadence Virtuoso Interface is unable to be installed.***
+\o Loading ./.cdsinit init file from the site init file.
+\o Loading NCSU CDK 1.5.1 customizations...
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool adle
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool asimenv
+\w *WARNING* envSetVal: Can't set the value of variable 'width',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'height',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ddserv
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool layout
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool schematic
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ui
+\o Loading NCSU SKILL routines...
+\w *WARNING* (def): redefining function cd from a lambda to be a nlambda
+\w *WARNING* (def): redefining function ls from a lambda to be a nlambda
+\o function pwd redefined
+\o Done loading NCSU_CDK customizations.
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = lib6414
+\o 	Cell         = tg
+\o 	View         = extracted
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = lib6414:tg:1_extracted_tg_state_Interactive.0
+\o 	Results DB   = /nethome/rrudolph3/Desktop/wicpm/ami06/lib6414/tg/adexl/results/data/Interactive.0.rdb
+\o 	Results Dir  = /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1
+\o 	Results Loc  = /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data
+\o 	Project Dir  = /nethome/rrudolph3/cadence/simulation
+\o 	Setup DB loc = /nethome/rrudolph3/Desktop/wicpm/ami06/lib6414/tg/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading awv.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading relXpert.cxt 
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\w *WARNING* Parameter 'lxUseCell' already exists.
+\o Loading devCheck.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ lib6414:tg:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading spectreinl.cxt 
+\o Loading /nethome/rrudolph3/Desktop/wicpm/ami06/.simrc file.
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /tools/cadence/ic615hf/tools.lnx86/dfII/etc/si/control.spectre /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Apr 20 17:01:00 2018
+\o End netlisting Apr 20 17:01:00 2018
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    2
+\o 
+\o 	Elapsed time:          1.0s (2.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\e *Error* Error during netlisting of design for the point ID (0 1).
+\e ("ls" 0 t nil ("*Error* ls: a nlambda must be defined or declared before its use" ls(path)))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5025
+\o *Error*   Error Msg = Error while preparing to run the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ lib6414:tg:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /tools/cadence/ic615hf/tools.lnx86/dfII/etc/si/control.spectre /nethome/rrudolph3/cadence/simulation/lib6414/tg/adexl/results/data/Interactive.0/1/lib6414:tg:1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Apr 20 17:01:01 2018
+\o End netlisting Apr 20 17:01:01 2018
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    2
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\e *Error* Error during netlisting of design for the point ID (0 1).
+\e ("ls" 0 t nil ("*Error* ls: a nlambda must be defined or declared before its use" ls(path)))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5025
+\o *Error*   Error Msg = Error while preparing to run the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Received signal SIGINT.
+\o 
+\o 

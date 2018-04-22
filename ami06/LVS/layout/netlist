@@ -1,0 +1,18 @@
+t 5 CLKA input
+t 4 CLKB input
+t 2 VIN input
+t 1 VOUT inputOutput
+t 0 gnd! inputOutput
+t 3 vdd! inputOutput
+n 0 /gnd!
+n 1 /VOUT
+n 2 /VIN
+n 3 /vdd!
+n 4 /CLKB
+n 5 /CLKA
+; pmos4 Instance /+1 = auLvs device Q0
+d pmos D G S B (p D S)
+i 0 pmos 1 4 2 3 " m 1 l 600e-9 w 1.5e-6 "
+; nmos4 Instance /+0 = auLvs device Q1
+d nmos D G S B (p D S)
+i 1 nmos 1 5 2 0 " m 1 l 600e-9 w 1.5e-6 "

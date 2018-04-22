@@ -1,0 +1,87 @@
+\# Program start time UTC 2018.04.20 20:47:35.229
+\# Local time Friday 20 April 2018, 4:47 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.5 01/16/2012 21:57 (sjfdl074) $
+\o Hierarchy:		/tools/cadence/ic615hf/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.5.500.9  (32-bit addresses)
+\# Host name (type):	ccblincad14.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 2.6.32-696.23.1.el6.x86_64 #1 SMP Sat Feb 10 11:10:31 EST 2018
+\# X display name (WxH):	ccblincad14.ece.gatech.edu:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Memory report:	maximum data size 4294967295 (0xffffffff) bytes
+\# Memory report:	maximum process size 4294967295 (0xffffffff) bytes
+\# Initial sbrk value:	355188736 (0x152bc000) bytes
+\# Available memory:	5764680 (0x57f648) kilobytes
+\# System memory:	7912628 (0x78bcb4) kilobytes
+\# Maximum memory size:	3976212479 (0xed002fff) bytes
+\# Max mem available:	3976212479 (0xed002fff) bytes
+\# Initial memory used:	36433920 (0x22bf000) bytes
+\# Qt version:		4.5.3
+\# Window Manager:	other
+\# User Name:		rrudolph3
+\o Working Directory:	ccblincad14.ece.gatech.edu:/nethome/rrudolph3/Desktop/wicpm/ami06
+\# Process Id:		15563
+\o 
+\o COPYRIGHT © 1992-2011  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2011  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\# Available memory:	5759720 (0x57e2e8) kilobytes UTC 2018.04.20 20:47:35.781
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading adexl.cxt 
+\o Loading oasis.cxt 
+\o Loading asimenv.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading socket.cxt 
+\o Loading alvs.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o ***The Sonnet directory is not set and the Sonnet Cadence Virtuoso Interface is unable to be installed.***
+\o Loading ./.cdsinit init file from the site init file.
+\o Loading NCSU CDK 1.5.1 customizations...
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool adle
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool asimenv
+\w *WARNING* envSetVal: Can't set the value of variable 'width',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'height',
+\w 	in tool[.partition] 'asimenv.plotting' - it has not been registered.
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ddserv
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool layout
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool schematic
+\o loading vars from /tools/solsoft/solcad/ic610/ncsu-cdk-1.6.0.beta/cdssetup/cdsenv for tool ui
+\o Loading NCSU SKILL routines...
+\w *WARNING* (def): redefining function cd from a lambda to be a nlambda
+\w *WARNING* (def): redefining function ls from a lambda to be a nlambda
+\o function pwd redefined
+\o Done loading NCSU_CDK customizations.
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\o 
+\o *Info*    Received signal SIGINT.
+\o 
+\o 
