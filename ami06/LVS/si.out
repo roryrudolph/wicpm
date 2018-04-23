@@ -22,8 +22,8 @@ Compiling Diva LVS rules...
 
 
     Terminal correspondence points
-    N5        N6        CLKA
-    N4        N7        CLKB
+    N5        N4        CLKA
+    N4        N6        CLKB
     N2        N5        VIN
     N1        N3        VOUT
     N0        N1        gnd!
