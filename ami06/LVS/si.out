@@ -9,25 +9,24 @@ Compiling Diva LVS rules...
     Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/layout/netlist
        count
         6               nets
-        6               terminals
-        1               pmos
-        1               nmos
+        5               terminals
+        2               pmos
+        2               nmos
 
     Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/schematic/netlist
        count
         6               nets
-        6               terminals
-        1               pmos
-        1               nmos
+        5               terminals
+        2               pmos
+        2               nmos
 
 
     Terminal correspondence points
-    N5        N4        CLKA
-    N4        N6        CLKB
-    N2        N5        VIN
-    N1        N3        VOUT
-    N0        N1        gnd!
-    N3        N0        vdd!
+    N4        N4        A
+    N3        N5        B
+    N2        N2        Z
+    N1        N0        gnd!
+    N5        N1        vdd!
 
 Devices in the rules but not in the netlist:
         cap nfet pfet nmos4 pmos4
@@ -40,8 +39,8 @@ The net-lists match.
         rewired                 0       0      
         size errors             0       0      
         pruned                  0       0      
-        active                  2       2      
-        total                   2       2      
+        active                  4       4      
+        total                   4       4      
 
                                   nets
         un-matched              0       0      
@@ -54,7 +53,7 @@ The net-lists match.
         un-matched              0       0      
         matched but
         different type          0       0      
-        total                   6       6      
+        total                   5       5      
 
 
 Probe files from /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/schematic

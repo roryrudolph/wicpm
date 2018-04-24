@@ -1,18 +1,21 @@
-t 5 CLKA input
-t 4 CLKB input
-t 2 VIN input
-t 1 VOUT inputOutput
-t 0 gnd! inputOutput
-t 3 vdd! inputOutput
-n 0 /gnd!
-n 1 /VOUT
-n 2 /VIN
-n 3 /vdd!
-n 4 /CLKB
-n 5 /CLKA
-; pmos4 Instance /+1 = auLvs device Q0
+t 4 A input
+t 3 B input
+t 2 Z inputOutput
+t 1 gnd! inputOutput
+t 5 vdd! inputOutput
+n 0 /6
+n 1 /gnd!
+n 2 /Z
+n 3 /B
+n 4 /A
+n 5 /vdd!
+; pmos4 Instance /+3 = auLvs device Q0
 d pmos D G S B (p D S)
-i 0 pmos 1 4 2 3 " m 1 l 600e-9 w 1.5e-6 "
-; nmos4 Instance /+0 = auLvs device Q1
+i 0 pmos 2 3 0 0 " m 1 l 600e-9 w 1.5e-6 "
+; pmos4 Instance /+2 = auLvs device Q1
+i 1 pmos 5 4 0 5 " m 1 l 600e-9 w 1.5e-6 "
+; nmos4 Instance /+1 = auLvs device Q2
 d nmos D G S B (p D S)
-i 1 nmos 1 5 2 0 " m 1 l 600e-9 w 1.5e-6 "
+i 2 nmos 1 3 2 1 " m 1 l 600e-9 w 1.5e-6 "
+; nmos4 Instance /+0 = auLvs device Q3
+i 3 nmos 1 4 2 1 " m 1 l 600e-9 w 1.5e-6 "
