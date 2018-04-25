@@ -55,16 +55,16 @@ Running simulation in directory: "/nethome/rrudolph3/Desktop/wicpm/ami06/LVS".
 
 
 
-Begin netlist:    Apr 24 20:46:19 2018
+Begin netlist:    Apr 25 10:50:37 2018
 	view name list	= ("auLvs" "extracted")
 	stop name list	= ("auLvs")
 	library name	= "lib6414"
-	cell name	= "nor2"
+	cell name	= "dac10bit"
 	view name	= "extracted"
 	globals lib	= "basic"
 Running Artist Flat Netlisting ...
 *WARNING* Parameter 'lxUseCell' already exists.
-End netlist:    Apr 24 20:46:20 2018
+End netlist:    Apr 25 10:50:37 2018
 
 Moving original netlist to extNetlist
 Removing parasitic components from netlist
@@ -73,18 +73,18 @@ Removing parasitic components from netlist
 	pinductors removed:  0
 	pdiodes removed:     0
 	trans lines removed: 0
-	6 nodes merged into 6 nodes
+	52 nodes merged into 52 nodes
 
 
-Begin netlist:    Apr 24 20:46:20 2018
+Begin netlist:    Apr 25 10:50:37 2018
 	view name list	= ("auLvs" "cmos_sch" "schematic" "symbol")
 	stop name list	= ("auLvs")
 	library name	= "lib6414"
-	cell name	= "nor2"
+	cell name	= "dac10bit"
 	view name	= "schematic"
 	globals lib	= "basic"
 Running Artist Flat Netlisting ...
-End netlist:    Apr 24 20:46:20 2018
+End netlist:    Apr 25 10:50:38 2018
 
 Moving original netlist to extNetlist
 Removing parasitic components from netlist
@@ -93,10 +93,10 @@ Removing parasitic components from netlist
 	pinductors removed:  0
 	pdiodes removed:     0
 	trans lines removed: 0
-	8 nodes merged into 8 nodes
+	230 nodes merged into 230 nodes
 
 Running netlist comparison program:  LVS
-Begin comparison:    Apr 24 20:46:20 2018
+Begin comparison:    Apr 25 10:50:38 2018
 @(#)$CDS: LVS version 6.1.5 01/16/2012 21:48 (sjfdl074) $
 
 The net-lists match.
@@ -107,22 +107,22 @@ The net-lists match.
         rewired                 0       0      
         size errors             0       0      
         pruned                  0       0      
-        active                  4       4      
-        total                   4       4      
+        active                  90      90     
+        total                   90      90     
 
                                   nets
         un-matched              0       0      
         merged                  0       0      
         pruned                  0       0      
-        active                  6       6      
-        total                   6       6      
+        active                  52      52     
+        total                   52      52     
 
                                 terminals
         un-matched              0       0      
         matched but
         different type          0       0      
-        total                   5       5      
-End comparison:      Apr 24 20:46:20 2018
+        total                   13      13     
+End comparison:      Apr 25 10:50:38 2018
 
 
 Comparison program completed successfully.
