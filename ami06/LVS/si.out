@@ -22,9 +22,9 @@ Compiling Diva LVS rules...
 
 
     Terminal correspondence points
-    N4        N4        A
+    N4        N3        A
     N3        N5        B
-    N2        N2        Z
+    N2        N4        Z
     N1        N0        gnd!
     N5        N1        vdd!
 

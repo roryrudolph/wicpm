@@ -55,7 +55,7 @@ Running simulation in directory: "/nethome/rrudolph3/Desktop/wicpm/ami06/LVS".
 
 
 
-Begin netlist:    Apr 24 16:09:33 2018
+Begin netlist:    Apr 24 20:46:19 2018
 	view name list	= ("auLvs" "extracted")
 	stop name list	= ("auLvs")
 	library name	= "lib6414"
@@ -64,7 +64,7 @@ Begin netlist:    Apr 24 16:09:33 2018
 	globals lib	= "basic"
 Running Artist Flat Netlisting ...
 *WARNING* Parameter 'lxUseCell' already exists.
-End netlist:    Apr 24 16:09:33 2018
+End netlist:    Apr 24 20:46:20 2018
 
 Moving original netlist to extNetlist
 Removing parasitic components from netlist
@@ -76,7 +76,7 @@ Removing parasitic components from netlist
 	6 nodes merged into 6 nodes
 
 
-Begin netlist:    Apr 24 16:09:33 2018
+Begin netlist:    Apr 24 20:46:20 2018
 	view name list	= ("auLvs" "cmos_sch" "schematic" "symbol")
 	stop name list	= ("auLvs")
 	library name	= "lib6414"
@@ -84,7 +84,7 @@ Begin netlist:    Apr 24 16:09:33 2018
 	view name	= "schematic"
 	globals lib	= "basic"
 Running Artist Flat Netlisting ...
-End netlist:    Apr 24 16:09:34 2018
+End netlist:    Apr 24 20:46:20 2018
 
 Moving original netlist to extNetlist
 Removing parasitic components from netlist
@@ -96,7 +96,7 @@ Removing parasitic components from netlist
 	8 nodes merged into 8 nodes
 
 Running netlist comparison program:  LVS
-Begin comparison:    Apr 24 16:09:34 2018
+Begin comparison:    Apr 24 20:46:20 2018
 @(#)$CDS: LVS version 6.1.5 01/16/2012 21:48 (sjfdl074) $
 
 The net-lists match.
@@ -122,7 +122,7 @@ The net-lists match.
         matched but
         different type          0       0      
         total                   5       5      
-End comparison:      Apr 24 16:09:34 2018
+End comparison:      Apr 24 20:46:20 2018
 
 
 Comparison program completed successfully.
