@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rrudolph3
+HostName                       ccblincad14.ece.gatech.edu
+ProcessIdentifier              19973
+ProcessCreationTime_UTC        1524668179
+ProcessCreationTime_Readable   Wed Apr 25 10:56:19 2018 EDT
+AppIdentifier                  /tools/cadence/ic615hf/tools/dfII/bin/32bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Not specified
+FilePathUsedToEditLock         /nethome/rrudolph3/Desktop/wicpm/ami06/lib6414/inv/physConfig/physExpand.cfg
+TimeEditLocked                 Wed Apr 25 14:25:30 2018 EDT
