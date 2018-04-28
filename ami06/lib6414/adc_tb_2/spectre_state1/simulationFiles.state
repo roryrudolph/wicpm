@@ -1,0 +1,13 @@
+VcdInfoFile ""
+EVcdFile ""
+EVcdInfoFile ""
+allStimulusFiles nil
+includePath ""
+allDefinitionFiles nil
+allVectorFiles nil
+hlcheck "off"
+VectorFile nil
+definitionFiles nil
+VcdFile ""
+stimulusFile nil
+allIncludedPaths nil
