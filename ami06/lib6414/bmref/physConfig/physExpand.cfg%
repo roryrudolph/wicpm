@@ -1,0 +1,16 @@
+//Revision 1
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config bmref;
+design lib6414.bmref:schematic;
+liblist lib6414;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig

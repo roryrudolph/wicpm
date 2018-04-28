@@ -1,0 +1,107 @@
+@(#)$CDS: LVS version 6.1.5 01/16/2012 21:48 (sjfdl074) $
+
+Command line: /tools/cadence/ic615hf/tools.lnx86/dfII/bin/32bit/LVS -dir /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu -l -s -t /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu/layout /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu/layout/netlist
+       count
+        318             nets
+        16              terminals
+        31              res
+        1               cap
+        346             pmos
+        351             nmos
+
+    Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu/schematic/netlist
+       count
+        318             nets
+        16              terminals
+        31              res
+        1               cap
+        346             pmos
+        351             nmos
+
+
+    Terminal correspondence points
+    N305      N4        CLK
+    N316      N17       D0
+    N315      N13       D1
+    N314      N18       D2
+    N313      N16       D3
+    N312      N8        D4
+    N311      N5        D5
+    N310      N9        D6
+    N309      N15       D7
+    N308      N20       D8
+    N307      N11       D9
+    N303      N2        EOC
+    N317      N3        RESET
+    N304      N10       VIN
+    N302      N0        gnd!
+    N306      N1        vdd!
+
+Devices in the netlist but not in the rules:
+        res
+Devices in the rules but not in the netlist:
+        nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  729     729    
+        total                   729     729    
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  318     318    
+        total                   318     318    
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   16      16     
+
+
+Probe files from /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /nethome/rrudolph3/Desktop/wicpm/ami06/LVSu/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

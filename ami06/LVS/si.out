@@ -8,41 +8,49 @@ Compiling Diva LVS rules...
 
     Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/layout/netlist
        count
-        261             nets
+        319             nets
         16              terminals
-        302             pmos
-        302             nmos
+        31              res
+        1               cap
+        346             pmos
+        351             nmos
 
     Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/schematic/netlist
        count
-        261             nets
+        318             nets
         16              terminals
-        302             pmos
-        302             nmos
+        31              res
+        1               cap
+        346             pmos
+        351             nmos
 
 
     Terminal correspondence points
-    N247      N3        CLK
-    N249      N22       COMP
-    N259      N28       D0
-    N258      N20       D1
-    N257      N27       D2
-    N256      N25       D3
-    N255      N16       D4
-    N254      N26       D5
-    N253      N17       D6
-    N252      N12       D7
-    N251      N19       D8
-    N250      N24       D9
-    N246      N6        EOC
-    N260      N2        RESET
-    N245      N0        gnd!
-    N248      N1        vdd!
+    N306      N4        CLK
+    N317      N17       D0
+    N316      N13       D1
+    N315      N18       D2
+    N314      N16       D3
+    N313      N8        D4
+    N312      N5        D5
+    N311      N9        D6
+    N310      N15       D7
+    N309      N20       D8
+    N308      N11       D9
+    N304      N2        EOC
+    N318      N3        RESET
+    N305      N10       VIN
+    N303      N0        gnd!
+    N307      N1        vdd!
 
+Devices in the netlist but not in the rules:
+        res
 Devices in the rules but not in the netlist:
-        cap nfet pfet nmos4 pmos4
+        nfet pfet nmos4 pmos4
 
-The net-lists match.
+1 net-list ambiguity was resolved by random selection.
+
+The net-lists failed to match.
 
                              layout  schematic
                                 instances
@@ -50,15 +58,15 @@ The net-lists match.
         rewired                 0       0      
         size errors             0       0      
         pruned                  0       0      
-        active                  604     604    
-        total                   604     604    
+        active                  729     729    
+        total                   729     729    
 
                                   nets
         un-matched              0       0      
-        merged                  0       0      
+        merged                  1       0      
         pruned                  0       0      
-        active                  261     261    
-        total                   261     261    
+        active                  319     318    
+        total                   319     318    
 
                                 terminals
         un-matched              0       0      
@@ -91,6 +99,8 @@ devbad.out:
 netbad.out:
 
 mergenet.out:
+N /53
+? Net /53 merged with /61
 
 termbad.out:
 
