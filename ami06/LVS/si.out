@@ -8,38 +8,41 @@ Compiling Diva LVS rules...
 
     Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/layout/netlist
        count
-        17              nets
-        7               terminals
-        13              pmos
-        13              nmos
+        261             nets
+        16              terminals
+        302             pmos
+        302             nmos
 
     Net-list summary for /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/schematic/netlist
        count
-        17              nets
-        7               terminals
-        13              pmos
-        13              nmos
+        261             nets
+        16              terminals
+        302             pmos
+        302             nmos
 
 
     Terminal correspondence points
-    N14       N4        CLK
-    N15       N5        D
-    N13       N7        Q
-    N17       N9        RESET
-    N12       N6        SET
-    N11       N0        gnd!
-    N16       N1        vdd!
+    N247      N3        CLK
+    N249      N22       COMP
+    N259      N28       D0
+    N258      N20       D1
+    N257      N27       D2
+    N256      N25       D3
+    N255      N16       D4
+    N254      N26       D5
+    N253      N17       D6
+    N252      N12       D7
+    N251      N19       D8
+    N250      N24       D9
+    N246      N6        EOC
+    N260      N2        RESET
+    N245      N0        gnd!
+    N248      N1        vdd!
 
 Devices in the rules but not in the netlist:
         cap nfet pfet nmos4 pmos4
 
-    Ill-defined correspondence points.
-
-	N12	N6  Accepted because one is a subset of the other
-
-1 net-list ambiguity was resolved by random selection.
-
-The net-lists failed to match.
+The net-lists match.
 
                              layout  schematic
                                 instances
@@ -47,21 +50,21 @@ The net-lists failed to match.
         rewired                 0       0      
         size errors             0       0      
         pruned                  0       0      
-        active                  26      26     
-        total                   26      26     
+        active                  604     604    
+        total                   604     604    
 
                                   nets
         un-matched              0       0      
-        merged                  1       0      
+        merged                  0       0      
         pruned                  0       0      
-        active                  17      17     
-        total                   17      17     
+        active                  261     261    
+        total                   261     261    
 
                                 terminals
-        un-matched              1       1      
+        un-matched              0       0      
         matched but
         different type          0       0      
-        total                   7       7      
+        total                   16      16     
 
 
 Probe files from /nethome/rrudolph3/Desktop/wicpm/ami06/LVS/schematic
@@ -73,8 +76,6 @@ netbad.out:
 mergenet.out:
 
 termbad.out:
-T -1  SET /SET
-? Terminal SET in the schematic failed to match any terminal in the layout.
 
 prunenet.out:
 
@@ -90,13 +91,8 @@ devbad.out:
 netbad.out:
 
 mergenet.out:
-N /SET
-? Net /SET merged with /18
 
 termbad.out:
-T -1  SET /SET
-? Terminal SET in the layout failed to match any terminal in the schematic.
-? Terminal SET is floating in the layout.
 
 prunenet.out:
 
